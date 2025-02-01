@@ -1,7 +1,9 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
+const router = createBrowserRouter([{}]);
+
 function App() {
-  return <div className="bg-red-200">App</div>;
+  return <RouterProvider router={router} />;
 }
 
 export default App;
