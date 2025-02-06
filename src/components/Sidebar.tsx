@@ -2,6 +2,9 @@ import { useState } from "react";
 import { Button } from "./ui/button";
 import Logo from "/public/Logo.png";
 import menu from "/public/menu.svg";
+import { IoClose } from "react-icons/io5";
+import { links } from "@/utils";
+import { NavLink } from "react-router-dom";
 
 function Sidebar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,17 +31,38 @@ function Sidebar() {
       <div
         className={
           isOpen
-            ? `fixed top-0 bottom-0 left-0 right-0 bg-black text-blue-400`
+            ? `fixed top-0 bottom-0 left-0 right-0 bg-black text-blue-400 z-10 py-3 px-4 `
             : "hidden"
         }
       >
-        <Button
-          variant={"outline"}
-          onClick={() => setIsOpen((oldstate) => !oldstate)}
-          size={"lg"}
-        >
-          Close
-        </Button>
+        <div className="flex justify-between items-center mb-4">
+          <img src={Logo} alt="logo" className="w-28 -ml-8" />
+          <span
+            className="text-blue-500 text-4xl"
+            onClick={() => setIsOpen((oldstate) => !oldstate)}
+          >
+            <IoClose />
+          </span>
+        </div>
+        <div className="flex flex-col gap-y-8">
+          {links.map((link, index) => {
+            return (
+              <NavLink
+                to={link.path}
+                key={index}
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-blue-400 border-b-2 border-blue-500 py-2 no-underline flex items-center gap-x-2 text-2xl"
+                    : "text-white py-2 no-underline flex items-center gap-x-2 text-2xl"
+                }
+                onClick={() => setIsOpen((oldstate) => !oldstate)}
+              >
+                <IoClose />
+                <span>{link.text}</span>
+              </NavLink>
+            );
+          })}
+        </div>
       </div>
     </div>
   );
