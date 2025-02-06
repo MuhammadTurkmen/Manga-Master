@@ -1,5 +1,3 @@
-import { IoHome } from "react-icons/io5";
-
 export const links = [
   {
     path: "/",
