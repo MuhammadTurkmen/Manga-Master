@@ -1,7 +1,6 @@
 import { Form } from "react-router-dom";
 import image from "../../public/number-1.png";
 import { Input } from "./ui/input";
-import { Button } from "./ui/button";
 
 function ContactForm() {
   return (
