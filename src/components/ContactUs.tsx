@@ -1,5 +1,4 @@
 import img from "../../public/contact-img.png";
-import { LuMapPin } from "react-icons/lu";
 import { HiOutlineMail } from "react-icons/hi";
 import { FiPhone } from "react-icons/fi";
 
