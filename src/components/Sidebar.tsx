@@ -4,7 +4,7 @@ import Logo from "/public/Logo.png";
 import menu from "/public/menu.svg";
 import { IoClose } from "react-icons/io5";
 import { links } from "@/utils";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Sidebar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,11 +13,14 @@ function Sidebar() {
       <img src={Logo} alt="logo" />
       <div className="flex items-center gap-4">
         <Button
+          asChild
           variant={"outline"}
-          className="bg-black border-blue-400 text-blue-400 rounded-xl hover:bg-black hover:text-primary hover:opacity-90"
+          className="bg-black border-blue-400 text-blue-400 rounded-xl hover:bg-black hover:text-primary hover:opacity-90 no-underline"
           size={"lg"}
         >
-          Read now
+          <Link to={"/mangas"} className="">
+            Read now
+          </Link>
         </Button>
         <img
           src={menu}

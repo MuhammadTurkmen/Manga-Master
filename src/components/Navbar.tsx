@@ -2,7 +2,7 @@ import Logo from "/public/Logo.png";
 import { Button } from "./ui/button";
 import Sidebar from "./Sidebar";
 import { links } from "@/utils";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -28,10 +28,11 @@ function Navbar() {
         </div>
         <Button
           variant={"outline"}
-          className="bg-black border-blue-400 text-blue-400 rounded-xl hover:bg-black hover:text-primary hover:opacity-90"
+          className="bg-black border-blue-400 text-blue-400 rounded-xl hover:bg-black hover:text-primary hover:opacity-90 no-underline"
           size={"lg"}
+          asChild
         >
-          Read now
+          <Link to={"/mangas"}>Read now</Link>
         </Button>{" "}
       </nav>
       <Sidebar />

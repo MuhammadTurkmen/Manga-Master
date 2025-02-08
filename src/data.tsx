@@ -17,6 +17,7 @@ export const card_data = [
     avilibale: true,
     cost: "Free",
     liked: false,
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac risus at lorem dictum tempus. Nam lacinia, justo a cursus tempor, ante sapien convallis turpis, at dapibus augue erat ut dui. Integer id mauris nec lectus vestibulum vehicula. Aenean",
   },
   {
     id: 2,
@@ -26,6 +27,7 @@ export const card_data = [
     avilibale: true,
     cost: "Free",
     liked: false,
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac risus at lorem dictum tempus. Nam lacinia, justo a cursus tempor, ante sapien convallis turpis, at dapibus augue erat ut dui. Integer id mauris nec lectus vestibulum vehicula. Aenean",
   },
   {
     id: 3,
@@ -35,6 +37,7 @@ export const card_data = [
     avilibale: true,
     cost: "Free",
     liked: false,
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac risus at lorem dictum tempus. Nam lacinia, justo a cursus tempor, ante sapien convallis turpis, at dapibus augue erat ut dui. Integer id mauris nec lectus vestibulum vehicula. Aenean",
   },
   {
     id: 4,
@@ -44,6 +47,7 @@ export const card_data = [
     avilibale: true,
     cost: "Free",
     liked: false,
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac risus at lorem dictum tempus. Nam lacinia, justo a cursus tempor, ante sapien convallis turpis, at dapibus augue erat ut dui. Integer id mauris nec lectus vestibulum vehicula. Aenean",
   },
   {
     id: 5,
@@ -53,6 +57,7 @@ export const card_data = [
     avilibale: true,
     cost: "Pro",
     liked: false,
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac risus at lorem dictum tempus. Nam lacinia, justo a cursus tempor, ante sapien convallis turpis, at dapibus augue erat ut dui. Integer id mauris nec lectus vestibulum vehicula. Aenean",
   },
   {
     id: 6,
@@ -62,6 +67,7 @@ export const card_data = [
     avilibale: true,
     cost: "Pro",
     liked: false,
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac risus at lorem dictum tempus. Nam lacinia, justo a cursus tempor, ante sapien convallis turpis, at dapibus augue erat ut dui. Integer id mauris nec lectus vestibulum vehicula. Aenean",
   },
   {
     id: 7,
@@ -71,6 +77,7 @@ export const card_data = [
     avilibale: true,
     cost: "Free",
     liked: false,
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac risus at lorem dictum tempus. Nam lacinia, justo a cursus tempor, ante sapien convallis turpis, at dapibus augue erat ut dui. Integer id mauris nec lectus vestibulum vehicula. Aenean",
   },
   {
     id: 8,
@@ -80,6 +87,7 @@ export const card_data = [
     avilibale: true,
     cost: "Pro",
     liked: false,
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac risus at lorem dictum tempus. Nam lacinia, justo a cursus tempor, ante sapien convallis turpis, at dapibus augue erat ut dui. Integer id mauris nec lectus vestibulum vehicula. Aenean",
   },
   {
     id: 9,
@@ -89,6 +97,7 @@ export const card_data = [
     avilibale: true,
     cost: "Pro",
     liked: false,
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac risus at lorem dictum tempus. Nam lacinia, justo a cursus tempor, ante sapien convallis turpis, at dapibus augue erat ut dui. Integer id mauris nec lectus vestibulum vehicula. Aenean",
   },
   {
     id: 10,
@@ -98,6 +107,7 @@ export const card_data = [
     avilibale: true,
     cost: "Free",
     liked: false,
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac risus at lorem dictum tempus. Nam lacinia, justo a cursus tempor, ante sapien convallis turpis, at dapibus augue erat ut dui. Integer id mauris nec lectus vestibulum vehicula. Aenean",
   },
 ];
 

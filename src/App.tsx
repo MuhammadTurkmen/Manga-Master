@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Services from "./pages/Services";
 import Mangas from "./pages/Mangas";
 import Contact from "./pages/Contact";
+import SingleManga from "./components/SingleManga";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: "mangas",
         element: <Mangas />,
+      },
+      {
+        path: "mangas/:id",
+        element: <SingleManga />,
       },
       {
         path: "contact",

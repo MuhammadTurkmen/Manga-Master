@@ -4,6 +4,7 @@ import { Button } from "./ui/button";
 import { useState } from "react";
 import { CiHeart } from "react-icons/ci";
 import heart from "../../public/Heart.svg";
+import { Link } from "react-router-dom";
 
 function CardSlider({
   title,
@@ -45,9 +46,10 @@ function CardSlider({
                 <Button
                   variant={"default"}
                   size={"lg"}
-                  className="bg-blue-500 inline-block rounded-none my-4 font-bold text-black"
+                  className="bg-blue-500 inline-block rounded-none my-4 font-bold text-black no-underline pt-2"
+                  asChild
                 >
-                  Read now
+                  <Link to={`/mangas/${card.id}`}>Read now</Link>
                 </Button>
               </div>
               {/* free or pro and like button */}
